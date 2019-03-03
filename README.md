@@ -5,6 +5,30 @@
 
   - ประยุกต์ใช้ redux-thunk
   - กำหนดการทำ business logic (action worker)
+  
+# Structure
+```
+src
+└───actions
+│     └──actionType.js  
+│     └──actionCreator.js.  //<= ฟังก์ชั่น static
+│     └──actionWorker.js.   //<= เขียน business logic ไว้ที่นี่
+└───api
+│     └──toast.js
+└───components
+│     └──Btn.js
+│     └──ShowNumber.js
+│     └──Toolbar.js
+└───containers
+│     └──buttonContainer.js
+│     └──displatContainer.js
+└───reducers
+│     └──index.js.js
+│     └──number.js
+└───store
+│     └──configureStore.js
+└─ App.js
+```
 
 ## Installation
 
