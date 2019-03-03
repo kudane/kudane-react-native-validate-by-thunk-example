@@ -51,10 +51,6 @@ react-native run-android
 ## Demo Code
 
 ```javascript
-/*
- * action worker, is a flow of business logic
- */
-
 export const increaseNumberWorker = () => {
   return (dispatch, getState) => {
     const {
