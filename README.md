@@ -7,6 +7,7 @@
   - กำหนดการทำ business logic (action worker)
   
 # Structure
+
 ```
 src
 └───actions
@@ -29,6 +30,12 @@ src
 │     └──configureStore.js
 └─ App.js
 ```
+
+# Program Description
+
+> โปรแกรมการ บวก ลบ ค่าตัวเลขที่แสดงบนหน้าจอ โดยจะทำการเช็คว่าการ บวกหรือลบ จะต้องอยู่ในช่วง 1-10, มิฉะนั้นจะแสดง Toast เพื่อแสดงความผิดพลาดบนหน้าจอ
+
+> โดยใช้คุณสมบัติของ redux-thunk เพื่อเช็คช่วง 1-10 ของ state และถ้าเกินช่วง 1-10 ก็จะแสดง error, มิฉะนั้นจะทำการ dispatch ตามการทำงานของ action worker ที่เรียกใช้
 
 ## Installation
 
