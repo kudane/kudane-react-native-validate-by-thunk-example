@@ -47,6 +47,32 @@ yarn install
 
 react-native run-android
 ```
+
+## Demo Code
+
+```react
+/*
+ * action worker, is a flow of business logic
+ */
+
+export const increaseNumberWorker = () => {
+  return (dispatch, getState) => {
+    const {
+      numberReducer: { number }
+    } = getState();
+
+    // ถ้าค่าอยู่ในช่วง 1-10, เพื่มค่าตัวเลข
+    if (0 <= number && number < 10) {
+      dispatch(increaseNumber());
+      return;
+    }
+
+    // ถ้าค่าเกินช่วง 1-10, แสดงความผิดพลาด
+    Toast.show("!!!number is Less than or equal to 10");
+  };
+};
+```
+
 ## Demo example
 
 ![](https://github.com/kudane/react-native-validate-by-thunk-example/blob/master/images/screen_demo.gif)
