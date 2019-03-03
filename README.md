@@ -1,12 +1,12 @@
 # react-native-validate-by-thunk-example
 ประยุกต์ใช้ redux-thunk ในการกำหนด workflow ของการทำ business logic
 
-# Purpose
+## Purpose
 
   - ประยุกต์ใช้ redux-thunk
   - กำหนดการทำ business logic (action worker)
   
-# Structure
+## Structure
 
 ```
 src
@@ -31,7 +31,7 @@ src
 └─ App.js
 ```
 
-# Program Description
+## Program Description
 
 > โปรแกรมการ บวก ลบ ค่าตัวเลขที่แสดงบนหน้าจอ โดยจะทำการเช็คว่าการ บวกหรือลบ จะต้องอยู่ในช่วง 1-10, มิฉะนั้นจะแสดง Toast เพื่อแสดงความผิดพลาดบนหน้าจอ
 
