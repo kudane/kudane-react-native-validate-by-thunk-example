@@ -39,7 +39,7 @@ src
 
 ## Installation
 
-```
+```node
 cd react-native-validate-by-thunk-example
 
 npm install
