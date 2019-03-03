@@ -3,6 +3,15 @@ using redux-thunk for create flow of business logic
 
 ## Motivation
 
+## Usage example
+```sh
+cd react-native-validate-by-thunk-example
+
+npm install
+yarn install
+
+react-native run-android
+```
 
 ![](https://github.com/kudane/react-native-validate-by-thunk-example/blob/master/images/Screenshot_1.png)
 ![](https://github.com/kudane/react-native-validate-by-thunk-example/blob/master/images/Screenshot_2.png)
