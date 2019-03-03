@@ -1,4 +1,9 @@
 import { increaseNumber, decreaseNumber } from "./actionCreator";
+import Toast from "../api/toast";
+
+/*
+ * action worker, is a flow of business logic
+ */
 
 export const increaseNumberWorker = () => {
   return (dispatch, getState) => {
@@ -12,6 +17,7 @@ export const increaseNumberWorker = () => {
     }
 
     //error toast
+    Toast.show("!!!number is Less than or equal to 10");
   };
 };
 
@@ -27,5 +33,6 @@ export const decreaseNumberWorker = () => {
     }
 
     //error toast
+    Toast.show("!!!number is Greater than or equal to 0");
   };
 };

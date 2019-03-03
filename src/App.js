@@ -4,8 +4,8 @@ import { Provider } from "react-redux";
 import configureStore from "./store/configureStore";
 
 import Toolbar from "./components/Toolbar";
-import ShowNumberContainer from "./containers/showNumber";
-import ButtonsContainer from "./containers/buttons";
+import DisplayContainer from "./containers/displayContainer";
+import ButtonContainer from "./containers/buttonContainer";
 
 const store = configureStore();
 
@@ -15,8 +15,8 @@ export default class App extends Component {
       <Provider store={store}>
         <View style={{ flex: 1 }}>
           <Toolbar />
-          <ShowNumberContainer />
-          <ButtonsContainer />
+          <DisplayContainer />
+          <ButtonContainer />
         </View>
       </Provider>
     );
