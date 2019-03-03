@@ -1,9 +1,9 @@
 # react-native-validate-by-thunk-example
-ประยุกค์ใช้ redux-thunk ในการกำหนด workflow ของการทำ business logic
+ประยุกต์ใช้ redux-thunk ในการกำหนด workflow ของการทำ business logic
 
 # Purpose
 
-  - ประยุกค์ใช้ redux-thunk
+  - ประยุกต์ใช้ redux-thunk
   - กำหนดการทำ business logic (action worker)
 
 ## Installation
