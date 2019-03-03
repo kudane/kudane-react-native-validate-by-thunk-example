@@ -8,7 +8,7 @@
 
 ## Installation
 
-```sh
+```
 cd react-native-validate-by-thunk-example
 
 npm install
