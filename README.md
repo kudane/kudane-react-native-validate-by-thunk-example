@@ -49,5 +49,5 @@ react-native run-android
 ```
 ## Demo example
 
-![](https://github.com/kudane/react-native-validate-by-thunk-example/blob/master/images/Screenshot_1.png)
-![](https://github.com/kudane/react-native-validate-by-thunk-example/blob/master/images/Screenshot_2.png)
+![](https://github.com/kudane/react-native-validate-by-thunk-example/blob/master/images/screen_demo.gif)
+
