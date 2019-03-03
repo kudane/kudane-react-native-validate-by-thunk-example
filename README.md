@@ -50,7 +50,7 @@ react-native run-android
 
 ## Demo Code
 
-```react
+```javascript
 /*
  * action worker, is a flow of business logic
  */
