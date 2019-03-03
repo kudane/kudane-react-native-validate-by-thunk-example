@@ -11,8 +11,8 @@
 src
 └───actions
 │     └──actionType.js  
-│     └──actionCreator.js.  //<= ฟังก์ชั่น static
-│     └──actionWorker.js.   //<= เขียน business logic ไว้ที่นี่
+│     └──actionCreator.js
+│     └──actionWorker.js    //<= เขียน business logic ไว้ที่นี่
 └───api
 │     └──toast.js
 └───components
