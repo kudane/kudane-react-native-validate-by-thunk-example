@@ -1,9 +1,13 @@
 # react-native-validate-by-thunk-example
-using redux-thunk for create flow of business logic
+ประยุกค์ใช้ redux-thunk ในการกำหนด workflow ของการทำ business logic
 
-## Motivation
+# Purpose
 
-## Usage example
+  - ประยุกค์ใช้ redux-thunk
+  - กำหนดการทำ business logic (action worker)
+
+## Installation
+
 ```sh
 cd react-native-validate-by-thunk-example
 
@@ -12,6 +16,7 @@ yarn install
 
 react-native run-android
 ```
+## Demo example
 
 ![](https://github.com/kudane/react-native-validate-by-thunk-example/blob/master/images/Screenshot_1.png)
 ![](https://github.com/kudane/react-native-validate-by-thunk-example/blob/master/images/Screenshot_2.png)
