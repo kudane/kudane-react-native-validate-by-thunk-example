@@ -24,7 +24,7 @@ src
 │     └──buttonContainer.js
 │     └──displatContainer.js
 └───reducers
-│     └──index.js.js
+│     └──index.js
 │     └──number.js
 └───store
 │     └──configureStore.js
